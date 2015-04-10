@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E6F62C71AD743F900F8F6E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F62C61AD743F900F8F6E6 /* main.m */; };
+		1E6F62CA1AD743F900F8F6E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F62C91AD743F900F8F6E6 /* AppDelegate.m */; };
+		1E6F62CD1AD743F900F8F6E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F62CC1AD743F900F8F6E6 /* ViewController.m */; };
+		1E6F62D01AD743F900F8F6E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6F62CE1AD743F900F8F6E6 /* Main.storyboard */; };
+		1E6F62D21AD743F900F8F6E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E6F62D11AD743F900F8F6E6 /* Images.xcassets */; };
+		1E6F62D51AD743F900F8F6E6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E6F62D31AD743F900F8F6E6 /* LaunchScreen.xib */; };
+		1E6F62E11AD743F900F8F6E6 /* RidiculistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F62E01AD743F900F8F6E6 /* RidiculistTests.m */; };
+		1E6F62EB1AD7442600F8F6E6 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6F62EA1AD7442600F8F6E6 /* Firebase.framework */; };
+		1E6F62ED1AD7443E00F8F6E6 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6F62EC1AD7443E00F8F6E6 /* libicucore.dylib */; };
+		1E6F62EF1AD7444900F8F6E6 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6F62EE1AD7444900F8F6E6 /* libc++.dylib */; };
+		1E6F62F11AD7444F00F8F6E6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6F62F01AD7444F00F8F6E6 /* CFNetwork.framework */; };
+		1E6F62F31AD7445600F8F6E6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6F62F21AD7445600F8F6E6 /* Security.framework */; };
+		1E6F62F51AD7445B00F8F6E6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6F62F41AD7445B00F8F6E6 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E6F62DB1AD743F900F8F6E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E6F62B91AD743F900F8F6E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E6F62C01AD743F900F8F6E6;
+			remoteInfo = Ridiculist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E6F62C11AD743F900F8F6E6 /* Ridiculist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ridiculist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6F62C51AD743F900F8F6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E6F62C61AD743F900F8F6E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E6F62C81AD743F900F8F6E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E6F62C91AD743F900F8F6E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E6F62CB1AD743F900F8F6E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E6F62CC1AD743F900F8F6E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E6F62CF1AD743F900F8F6E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E6F62D11AD743F900F8F6E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1E6F62D41AD743F900F8F6E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1E6F62DA1AD743F900F8F6E6 /* RidiculistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RidiculistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6F62DF1AD743F900F8F6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E6F62E01AD743F900F8F6E6 /* RidiculistTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RidiculistTests.m; sourceTree = "<group>"; };
+		1E6F62EA1AD7442600F8F6E6 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		1E6F62EC1AD7443E00F8F6E6 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		1E6F62EE1AD7444900F8F6E6 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		1E6F62F01AD7444F00F8F6E6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1E6F62F21AD7445600F8F6E6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1E6F62F41AD7445B00F8F6E6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E6F62BE1AD743F900F8F6E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6F62F51AD7445B00F8F6E6 /* SystemConfiguration.framework in Frameworks */,
+				1E6F62F31AD7445600F8F6E6 /* Security.framework in Frameworks */,
+				1E6F62F11AD7444F00F8F6E6 /* CFNetwork.framework in Frameworks */,
+				1E6F62EF1AD7444900F8F6E6 /* libc++.dylib in Frameworks */,
+				1E6F62ED1AD7443E00F8F6E6 /* libicucore.dylib in Frameworks */,
+				1E6F62EB1AD7442600F8F6E6 /* Firebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6F62D71AD743F900F8F6E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E6F62B81AD743F900F8F6E6 = {
+			isa = PBXGroup;
+			children = (
+				1E6F62F41AD7445B00F8F6E6 /* SystemConfiguration.framework */,
+				1E6F62F21AD7445600F8F6E6 /* Security.framework */,
+				1E6F62F01AD7444F00F8F6E6 /* CFNetwork.framework */,
+				1E6F62EE1AD7444900F8F6E6 /* libc++.dylib */,
+				1E6F62EC1AD7443E00F8F6E6 /* libicucore.dylib */,
+				1E6F62EA1AD7442600F8F6E6 /* Firebase.framework */,
+				1E6F62C31AD743F900F8F6E6 /* Ridiculist */,
+				1E6F62DD1AD743F900F8F6E6 /* RidiculistTests */,
+				1E6F62C21AD743F900F8F6E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E6F62C21AD743F900F8F6E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E6F62C11AD743F900F8F6E6 /* Ridiculist.app */,
+				1E6F62DA1AD743F900F8F6E6 /* RidiculistTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E6F62C31AD743F900F8F6E6 /* Ridiculist */ = {
+			isa = PBXGroup;
+			children = (
+				1E6F62C81AD743F900F8F6E6 /* AppDelegate.h */,
+				1E6F62C91AD743F900F8F6E6 /* AppDelegate.m */,
+				1E6F62CB1AD743F900F8F6E6 /* ViewController.h */,
+				1E6F62CC1AD743F900F8F6E6 /* ViewController.m */,
+				1E6F62CE1AD743F900F8F6E6 /* Main.storyboard */,
+				1E6F62D11AD743F900F8F6E6 /* Images.xcassets */,
+				1E6F62D31AD743F900F8F6E6 /* LaunchScreen.xib */,
+				1E6F62C41AD743F900F8F6E6 /* Supporting Files */,
+			);
+			path = Ridiculist;
+			sourceTree = "<group>";
+		};
+		1E6F62C41AD743F900F8F6E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E6F62C51AD743F900F8F6E6 /* Info.plist */,
+				1E6F62C61AD743F900F8F6E6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E6F62DD1AD743F900F8F6E6 /* RidiculistTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E6F62E01AD743F900F8F6E6 /* RidiculistTests.m */,
+				1E6F62DE1AD743F900F8F6E6 /* Supporting Files */,
+			);
+			path = RidiculistTests;
+			sourceTree = "<group>";
+		};
+		1E6F62DE1AD743F900F8F6E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E6F62DF1AD743F900F8F6E6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E6F62C01AD743F900F8F6E6 /* Ridiculist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E6F62E41AD743F900F8F6E6 /* Build configuration list for PBXNativeTarget "Ridiculist" */;
+			buildPhases = (
+				1E6F62BD1AD743F900F8F6E6 /* Sources */,
+				1E6F62BE1AD743F900F8F6E6 /* Frameworks */,
+				1E6F62BF1AD743F900F8F6E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ridiculist;
+			productName = Ridiculist;
+			productReference = 1E6F62C11AD743F900F8F6E6 /* Ridiculist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E6F62D91AD743F900F8F6E6 /* RidiculistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E6F62E71AD743F900F8F6E6 /* Build configuration list for PBXNativeTarget "RidiculistTests" */;
+			buildPhases = (
+				1E6F62D61AD743F900F8F6E6 /* Sources */,
+				1E6F62D71AD743F900F8F6E6 /* Frameworks */,
+				1E6F62D81AD743F900F8F6E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E6F62DC1AD743F900F8F6E6 /* PBXTargetDependency */,
+			);
+			name = RidiculistTests;
+			productName = RidiculistTests;
+			productReference = 1E6F62DA1AD743F900F8F6E6 /* RidiculistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E6F62B91AD743F900F8F6E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = RyanKennedy;
+				TargetAttributes = {
+					1E6F62C01AD743F900F8F6E6 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					1E6F62D91AD743F900F8F6E6 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 1E6F62C01AD743F900F8F6E6;
+					};
+				};
+			};
+			buildConfigurationList = 1E6F62BC1AD743F900F8F6E6 /* Build configuration list for PBXProject "Ridiculist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E6F62B81AD743F900F8F6E6;
+			productRefGroup = 1E6F62C21AD743F900F8F6E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E6F62C01AD743F900F8F6E6 /* Ridiculist */,
+				1E6F62D91AD743F900F8F6E6 /* RidiculistTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E6F62BF1AD743F900F8F6E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6F62D01AD743F900F8F6E6 /* Main.storyboard in Resources */,
+				1E6F62D51AD743F900F8F6E6 /* LaunchScreen.xib in Resources */,
+				1E6F62D21AD743F900F8F6E6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6F62D81AD743F900F8F6E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E6F62BD1AD743F900F8F6E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6F62CD1AD743F900F8F6E6 /* ViewController.m in Sources */,
+				1E6F62CA1AD743F900F8F6E6 /* AppDelegate.m in Sources */,
+				1E6F62C71AD743F900F8F6E6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6F62D61AD743F900F8F6E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6F62E11AD743F900F8F6E6 /* RidiculistTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E6F62DC1AD743F900F8F6E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E6F62C01AD743F900F8F6E6 /* Ridiculist */;
+			targetProxy = 1E6F62DB1AD743F900F8F6E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E6F62CE1AD743F900F8F6E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E6F62CF1AD743F900F8F6E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E6F62D31AD743F900F8F6E6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E6F62D41AD743F900F8F6E6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E6F62E21AD743F900F8F6E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E6F62E31AD743F900F8F6E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E6F62E51AD743F900F8F6E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Ridiculist/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E6F62E61AD743F900F8F6E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Ridiculist/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E6F62E81AD743F900F8F6E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RidiculistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ridiculist.app/Ridiculist";
+			};
+			name = Debug;
+		};
+		1E6F62E91AD743F900F8F6E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RidiculistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ridiculist.app/Ridiculist";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E6F62BC1AD743F900F8F6E6 /* Build configuration list for PBXProject "Ridiculist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6F62E21AD743F900F8F6E6 /* Debug */,
+				1E6F62E31AD743F900F8F6E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E6F62E41AD743F900F8F6E6 /* Build configuration list for PBXNativeTarget "Ridiculist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6F62E51AD743F900F8F6E6 /* Debug */,
+				1E6F62E61AD743F900F8F6E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E6F62E71AD743F900F8F6E6 /* Build configuration list for PBXNativeTarget "RidiculistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6F62E81AD743F900F8F6E6 /* Debug */,
+				1E6F62E91AD743F900F8F6E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E6F62B91AD743F900F8F6E6 /* Project object */;
+}
